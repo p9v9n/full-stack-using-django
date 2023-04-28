@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <tittle>course sign up</tittle>
+    <body>
+       <form action="thankyou.html" method="get">
+        <h1>course sign up</h1>
+        <h2>please note:first name,last name,password,and email are required</h2>
+        <label for="fn">first name:</label>
+        <input id="fn" type="text" placeholder="firstname" required>
+
+        <label for="ln">last name:</label>
+        <input id="ln" type="text" placeholder="lastname" required>
+
+        <p></p>
+
+        <label for="mail">email:</label>
+        <input id="mail" type="email" placeholder="user@email.com" required>
+
+        <label for="passcode">password:</label>
+        <input id="passcode" type="password" placeholder="" required>
+
+        <p>are you over 18?</p>
+        <label for="y">yes:</label>
+        <input for="y" type="radio" name="over" value="yes">
+
+        <label for="n">no:</label>
+        <input for="n" type="radio" name="over" value="no">
+
+        <p>do u use credit card or paypal?</p>
+        
+        <select name="payment" id="">
+            <option value="cc">credit card</option>
+            <option value="pp">paypal</option>
+        </select>
+        
+        <p></p>
+
+        <input type="submit" value="sign in">
+
+       </form>
+    </body>
+</html>

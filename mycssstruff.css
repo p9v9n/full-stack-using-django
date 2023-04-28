@@ -1,0 +1,19 @@
+body{
+    font-family: 'Alkatra', cursive;
+    background-color: bisque;
+    text-align: center;
+    border: 40px solid white;
+    border-top: 0px;
+    margin: 0px;
+    border-bottom: 0px;
+}
+form{
+    font-size: 1.7em;
+
+}
+#sub{
+    font-size: 1em;
+    border-color: brown;
+    background-color: gold;
+    border-radius: 25px;
+}
